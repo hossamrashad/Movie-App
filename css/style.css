@@ -149,9 +149,9 @@ main {
     display: block;
     text-decoration: none;
     text-transform: capitalize;
-    bottom: 0%;
+    top: 0%;
     width: 55px;
-    right: calc(50% - 27px);
+    right: 10px;
     font-size: 20px;
     border: 2px solid rgb(181, 181, 181);
     padding: 2px 15px;
@@ -161,6 +161,9 @@ main {
     background-color: #22254b;
     color: #eee;
 }
+
+
+/* google_translate */
 
 #google_translate_element {
     position: fixed;
