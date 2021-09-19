@@ -1,4 +1,4 @@
-// الايب اي الخاص بى الافلام 
+// الايب اي الخاص بى الافلام
 const APIURL =
     "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1";
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
@@ -40,14 +40,15 @@ function showMovies(movies) {
             <div class="movie-info">
                 <h3>${title}</h3>
                 <span class="${getClassByRate(
-                    vote_average
+                vote_average
                 )}">${vote_average}</span>
             </div>
             <div class="overview">
                 <h3>Overview:</h3>
                 <p class="lead">${overview}</p>
-            <a href="https://www.google.com/search?q=${title}" class="open-movie" target="_blank"><i class="fas fa-search"></i></a>
             </div>
+            <a href="https://www.google.com/search?q=${title}" class="open-movie" target="_blank"><i class="fas fa-search"></i></a>
+
         `;
 
         main.appendChild(movieEl);

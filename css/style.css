@@ -121,7 +121,7 @@ main {
 
 .overview {
     background-color: #fff;
-    padding: 2rem;
+    padding: 2rem 20px;
     position: absolute;
     max-height: 100%;
     overflow: auto;
@@ -147,15 +147,14 @@ main {
 .open-movie {
     position: absolute;
     display: block;
-    color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: capitalize;
     bottom: 0%;
-    width: fit-content;
-    right: calc(50% - 20px);
-    font-size: 30px;
+    width: 55px;
+    right: calc(50% - 27px);
+    font-size: 20px;
     border: 2px solid rgb(181, 181, 181);
-    padding: 2px 5px;
+    padding: 2px 15px;
     border-radius: 10px;
     margin-top: 20px;
     text-align: center;
