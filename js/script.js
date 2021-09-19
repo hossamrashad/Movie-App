@@ -47,7 +47,7 @@ function showMovies(movies) {
                 <h3>Overview:</h3>
                 <p class="lead">${overview}</p>
             </div>
-            <a href="https://www.google.com/search?q=${title}" class="open-movie" target="_blank"><i class="fas fa-search"></i></a>
+            <a title='Search In Google' href="https://www.google.com/search?q=${title}" class="open-movie" target="_blank"><i class="fas fa-search"></i></a>
 
         `;
 
